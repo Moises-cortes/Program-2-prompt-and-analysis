@@ -35,6 +35,9 @@ int main()
    // create a loadbalancer
    loadbalancer lb;
 
+
+   // create a loadbalancer
+
    
    // start off with a "full" queue
    for (int i = 0; i < 10; i++)
@@ -85,6 +88,9 @@ int main()
       }
       lb.incTime();
       
+         
+      }
+      // every random set of time, or get a new request
 
 
 
