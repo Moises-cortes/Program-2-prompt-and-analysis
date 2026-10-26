@@ -33,6 +33,7 @@ request loadbalancer::getRequest()
       requestQueue.pop();
       return r;
    }
+    return request{};
 
 
 
