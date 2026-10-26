@@ -74,7 +74,7 @@ int main()
 		 // print some stats
          cout << "Finished at " << currTime << " " << webarray[currTime % NUM_SERVERS].getName();
          cout << " pid " << r.pid <<"/" << size << " process time was " << r.processTime ;
-         cout << " processed request from " << r.source << " to " << r.destination ;
+         //cout << " processed request from " << r.source << " to " << r.destination ;
          cout << endl;
 		 
          // then give it a new request
