@@ -29,7 +29,7 @@ request createRandomRequest()
 int main()
 {
    // random number generator
-   srand(time(0));
+   srand(40);
 
 
    // create a loadbalancer
