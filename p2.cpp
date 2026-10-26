@@ -52,7 +52,7 @@ int main()
    webserver webarray[NUM_SERVERS];
    for (int i = 0; i < NUM_SERVERS; i++)
    {
-      webserver w( (char) (i+65));
+      webserver w( (char) (i + 65));
       webarray[i] =w;
       webarray[i].addRequest(lb.getRequest(), lb.getTime());
 
